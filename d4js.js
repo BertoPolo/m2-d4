@@ -10,4 +10,16 @@ for(let i=0;i<people.length;i++){
  */
 
 
-const 
+
+const waitingPersonsLi = document.getElementById("waitingPersonsLi")
+
+
+const personCreator = function(){
+    const personAdder = document.getElementById("personAdder")
+    const li = document.createElement("li")
+    li.innerText = personAdder.value
+}
+
+const numDivider = function(){
+    const numberGroups = document.getElementById("numberGroups")
+}
