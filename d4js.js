@@ -10,6 +10,7 @@ for(let i=0;i<people.length;i++){
  */
 
 
+let createdPerson=[]
 
 const waitingPersonsLi = document.getElementById("waitingPersonsLi")
 
@@ -19,7 +20,7 @@ const personCreator = function(){
     const li = document.createElement("li")
     li.innerText = personAdder.value
     waitingPersonsLi.appendChild(li)
-
+    createdPerson.push()
 }
 
 
