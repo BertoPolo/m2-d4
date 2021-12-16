@@ -13,13 +13,19 @@ for(let i=0;i<people.length;i++){
 
 const waitingPersonsLi = document.getElementById("waitingPersonsLi")
 
-
+//create a person and attach to a waiting list
 const personCreator = function(){
     const personAdder = document.getElementById("personAdder")
     const li = document.createElement("li")
     li.innerText = personAdder.value
-}
+    waitingPersonsLi.appendChild(li)
 
+}
+//
+
+
+
+//divide on groups
 const numDivider = function(){
     const numberGroups = document.getElementById("numberGroups")
 }
