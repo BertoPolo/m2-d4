@@ -23,6 +23,7 @@ const personCreator = function(){
     createdPerson.push()
 }
 
+//PARA COJER EL NUMERO/VALOR DEL INPUT. HAZ UN DOCUMENT.GET BY ID Y ESO YU LUEGO TERMINA EN UN ).VALUE
 
 //divide on groups NOT FINISHED
 const numDivider = function(){
@@ -32,11 +33,6 @@ const numDivider = function(){
 }
 
 
-
-//assign a variable  with math floor random  in
-//use that variable on person-index to grab it
-//how to use the index? where is the output of personCreator???
-
-
 let randomIndex = Math.floor(Math.random())* waitingPersonsLi.length // with this you have a random number
 
+createdPerson[randomIndex]
