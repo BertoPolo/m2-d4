@@ -25,7 +25,7 @@ const personCreator = function(){
 
 //PARA COJER EL NUMERO/VALOR DEL INPUT. HAZ UN DOCUMENT.GET BY ID Y ESO YU LUEGO TERMINA EN UN ).VALUE
 
-//divide on groups NOT FINISHED
+//divide in groups NOT FINISHED
 const numDivider = function(){
     const numberGroups = document.getElementById("numberGroups")
     let divider = waitingPersonsLi / numberGroups
